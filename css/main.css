@@ -1,0 +1,92 @@
+body{
+    padding:0;
+    margin: 0;
+    font-family: "Source Code Pro";
+    color:white;
+    min-width: 500px;
+}
+header{
+    width:100%;
+    background-color: crimson;
+    position: fixed;
+    top:0;
+    z-index: 9;
+}
+header>h1{
+    padding:10px;
+    width:1000px;
+    margin:0 auto;
+    height: 60px;
+
+    line-height: 40px;
+    box-sizing: border-box;
+}
+
+
+
+div.main{
+    width:100%;
+    margin:0 auto;
+    box-sizing: border-box;
+    /*background-color: #2b2b2b;*/
+    position: absolute;
+    height:100%;
+    padding:60px 0;
+
+    /*left:0;
+    right:0;
+    top:60px;
+    bottom:60px;*/
+}
+div.main>div.container{
+    overflow: auto;
+    background-color: #2b2b2b;
+    width:1000px;
+    height:100%;
+    box-sizing: border-box;
+    margin:0 auto;
+}
+div.standard:first-child{
+    display: none;
+}
+div.standard>span.user{
+    color:#87d934;
+}
+
+div.tabTips#tabTips{
+    display: none;
+    width:600px;
+
+}
+div.tabTips>span{
+    display: inline-block;
+    width:190px;
+
+}
+
+footer{
+    width:100%;
+    background-color:crimson;
+    position: fixed;
+    bottom:0;
+
+}
+footer>div{
+    padding:0 0 20px 0;
+    width:1000px;
+    margin:0 auto;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+footer>div>label{
+    color:#87d934;
+}
+footer>div>input{
+    background-color: crimson;
+    border: 0;
+    color:white;
+    height:20px;
+    width:500px;
+
+}

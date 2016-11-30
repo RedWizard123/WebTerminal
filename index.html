@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    <script src="js/Terminal.js"></script>
+    <script src="js/main.js"></script>
+    <title>
+        Terminal
+    </title>
+</head>
+<body>
+<header>
+    <h1>Terminal</h1>
+</header>
+<div class="main">
+    <div class="container">
+        <div class="standard" id="prime">
+            <span class="user">{{user_name}}@{{pc_name}}</span>
+            <span class="colon">:</span>
+            <span class="tilde">{{CurrentPath}}</span>
+            <span class="input">{{input}}</span>
+            <br>
+            <span class="output">{{output}}</span>
+        </div>
+        <div class="tabTips" id="tabTips"></div>
+    </div>
+</div>
+
+
+
+<footer>
+    <div>
+        <label for="input" id="input-label"></label>
+        <input id="input" type="text" onkeydown="inputkeydown(event)"/>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
